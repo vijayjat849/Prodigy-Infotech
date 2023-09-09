@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Dosis", sans-serif;
+  font-family: "Jost", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Sofia Sans", sans-serif;
+
+  color: rgb(17, 16, 16);
+}
+body {
+  height: 100vh;
+  background-image: url(img.jpg);
+  background-position: center center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: sans-serif;
+  background: none;
+}
+
+.tit {
+  justify-self: center;
+  width: 100vw;
+  margin-top: 8rem;
+  background: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  height: 50vh;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  margin-top: 2rem;
+  background: none;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  height: 1vh;
+  align-items: flex-start;
+  background: none;
+  background: none;
+}
+
+/*label*/
+.label {
+  /* margin: 1rem; */
+  opacity: 0.5;
+  justify-self: center;
+  align-self: center;
+  font-size: 30px;
+  background: none;
+}
+
+/*times*/
+.time {
+  justify-self: end;
+  margin-left: 1.5rem;
+  align-self: flex-end;
+  opacity: 0.8;
+  /* text-align: center; */
+  border: none;
+  background-color: #ffffff00;
+  font-size: 50px;
+  width: 70px;
+  background: none;
+  height: 50px;
+}
+
+/*buttons*/
+
+.btn {
+  align-self: center;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  border: 0.1px solid gray;
+  width: 100px;
+  height: 40px;
+
+  font-size: 30px;
+  justify-self: center;
+}
+
+.h,
+.m,
+.s {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.h:hover,
+.m:hover,
+.s:hover {
+  background-color: rgb(233, 231, 229);
+}
+
+.bottom button:hover {
+  color: rgb(64, 141, 73);
+  cursor: pointer;
+}
